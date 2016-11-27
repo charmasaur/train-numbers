@@ -1,0 +1,3 @@
+A little PHP script to run the C++ binary.
+
+Wherever this ends up being used, you'll also need the train_bin binary (or a simlink thereto).
