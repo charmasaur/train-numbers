@@ -33,6 +33,10 @@ class Divide(Binary):
 
 class Power(Binary):
     def works(self, a, b):
+        try:
+            self.doIt(a, b)
+        except:
+            return False
         return True
     def doIt(self, a, b):
         return a ** b
