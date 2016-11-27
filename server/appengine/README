@@ -1,0 +1,6 @@
+App engine server to provide an interface for the Python version.
+
+You'll need to put Flask in a lib/ directory:
+pip install -t lib flask
+
+And simlink to train_py.py (or just put train_py.py in here).
