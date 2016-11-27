@@ -67,10 +67,11 @@ def _check(dem, binaries):
                 dem[iidx] = dem[0]
                 dem[iidx + jidx + 1] = o.doIt(i, j)
                 if _check(dem[1:], binaries):
+                    print(str(dem) + ": " + str(i) + ", " + str(j))
                     return True
                 dem[iidx] = i
                 dem[iidx + jidx + 1] = j
     return False
 
 def go(st, exp):
-    return _check(list(map(int, st)), get_binaries(exp))
+    return _check(list(map(float, st)), get_binaries(exp))
