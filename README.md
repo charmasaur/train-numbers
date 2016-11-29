@@ -7,3 +7,5 @@ each digit as an input and using only "standard" operations)? For example, given
 Here are a couple of simple algorithms
 for figuring this out, and for fun it's also available as a service: http://train-numbers.appspot.com.
 
+Note that these algorithms don't tell you *how* to make 10, because that would be cheating (it's
+probably cheating anyway, but only a little bit).
